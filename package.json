@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant landing page project for JavaScript exercise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdejules/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gdejules/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/gdejules/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.108.4",
+    "webpack-cli": "^7.2.1"
+  }
+}
