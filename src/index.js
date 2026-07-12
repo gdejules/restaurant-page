@@ -1,3 +1,5 @@
 import "./styles.css";
+import { home } from "./home.js";
 
-console.log("Restauran website");
+const nav = document.querySelector("#content");
+nav.appendChild(home);
