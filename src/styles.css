@@ -108,10 +108,26 @@ body {
 .gallery {
   display: flex;
   justify-content: space-evenly;
+}
+
+.menu.container {
+  width: 30%;
   > img {
-    width: 30%;
-    height: auto;
     border-radius: 16px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   }
+}
+
+/* text style for photo credit */
+.credit {
+  color: gray;
+  text-align: right;
+  font-style: italic;
+  margin-right: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
