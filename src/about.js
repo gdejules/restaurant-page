@@ -13,9 +13,25 @@ aboutImage.src =
 const paraTwo = document.createElement("p");
 paraTwo.textContent =
   "We are located in the heart of Seminyak, Bali. Bali is one of the most popular island in Indonesia with a rich culture and cuisine. Our menu also inspired with the Bali local taste with a touch of other asian foods.";
+const paraThree = document.createElement("span");
+paraThree.textContent =
+  "Come reserve your seat to experience our hospitality and exquisite cuisine.";
+const contacts = document.createElement("div");
+const phone = document.createElement("span");
+phone.textContent = "Phone: +6281234567890";
+const insta = document.createElement("span");
+insta.textContent = "Instagram: @asianrestaurant_bali";
+contacts.appendChild(paraThree);
+contacts.appendChild(phone);
+contacts.appendChild(insta);
+// contacts.style("display: flex, flex-direction: column, gap: 0.5rem");
+contacts.style.display = "flex";
+contacts.style.flexDirection = "column";
+contacts.style.gap = "0.5rem";
 aboutDesc.appendChild(paraOne);
 aboutDesc.appendChild(aboutImage);
 aboutDesc.appendChild(paraTwo);
+aboutDesc.appendChild(contacts);
 
 about.appendChild(aboutTitle);
 about.appendChild(aboutDesc);

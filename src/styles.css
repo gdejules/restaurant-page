@@ -48,7 +48,8 @@ body {
   width: 100vw;
 }
 
-#home {
+#home,
+#about {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -74,7 +75,9 @@ body {
 }
 
 .hero-text,
-#about-section {
+#about-section,
+#about,
+#about img {
   width: calc(100% - 2 * var(--margin));
   margin: 0 var(--margin) 2rem;
 }
