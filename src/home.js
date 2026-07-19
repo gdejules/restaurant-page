@@ -1,6 +1,8 @@
 export const home = document.createElement("div");
 home.id = "home";
 
+import { menu } from "./menu.js";
+
 // hero elements
 const heroTitle = document.createElement("h1");
 heroTitle.textContent = "Welcome to Loka";
@@ -85,3 +87,10 @@ aboutSection.appendChild(aboutDesc);
 aboutSection.appendChild(menuButton);
 aboutSection.appendChild(gallery);
 home.appendChild(aboutSection);
+
+// clicking menu-button to go the menu page
+menuButton.addEventListener("click", (e) => {
+  const content = document.getElementById("content");
+  content.replaceChildren();
+  content.appendChild(menu);
+});
