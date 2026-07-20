@@ -2,7 +2,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 import path from "node:path";
 
 export default {
-  mode: "production",
+  mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
